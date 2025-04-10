@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: spam_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123QWEasd
+      POSTGRES_DB: spam
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "6543:5432"
+
+volumes:
+  postgres_data:

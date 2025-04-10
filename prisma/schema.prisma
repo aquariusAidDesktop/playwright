@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum AccountStatus {
+  NOT_CHECKED
+  ACTIVE
+  BANNED
+  INVALID
+}
+
+enum ProxyStatus {
+  NOT_CHECKED
+  OK
+  DEAD
+  BLOCKED
+}
+
+model Account {
+  id            Int            @id @default(autoincrement())
+  identifier    String         @unique
+  sessionPath   String
+  status        AccountStatus  @default(NOT_CHECKED)
+  lastUsedAt    DateTime       @default(now())
+}
+
+model Proxy {
+  id      Int         @id @default(autoincrement())
+  address String      @unique
+  status  ProxyStatus @default(NOT_CHECKED)
+}

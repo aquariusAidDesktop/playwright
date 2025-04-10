@@ -11,14 +11,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.6.5",
+  "packageManager": "pnpm@10.8.0",
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "axios": "^1.8.4",
     "fingerprint-generator": "^2.1.63",
     "fingerprint-injector": "^2.1.63",
     "generative-bayesian-network": "^2.1.63",
     "header-generator": "^2.1.63",
-    "playwright": "^1.51.1"
+    "playwright": "^1.51.1",
+    "prisma": "^6.6.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
