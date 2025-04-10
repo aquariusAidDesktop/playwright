@@ -1,0 +1,87 @@
+{
+  "cookies": [
+    {
+      "name": "stel_web_auth",
+      "value": "https%3A%2F%2Fweb.telegram.org%2Fk%2F",
+      "domain": "t.me",
+      "path": "/",
+      "expires": 1776176523.91058,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "stel_web_auth",
+      "value": "https%3A%2F%2Fweb.telegram.org%2Fk%2F",
+      "domain": "telegram.me",
+      "path": "/",
+      "expires": 1775981983.966651,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://web.telegram.org",
+      "localStorage": [
+        {
+          "name": "kz_version",
+          "value": "\"K\""
+        },
+        {
+          "name": "xt_instance",
+          "value": "{\"id\":24248704,\"idle\":false,\"time\":1744274714503}"
+        },
+        {
+          "name": "number_of_accounts",
+          "value": "1"
+        },
+        {
+          "name": "tgme_sync",
+          "value": "{\"canRedirect\":true,\"ts\":1744274686}"
+        },
+        {
+          "name": "account1",
+          "value": "{\"dc2_auth_key\":\"52d5f1f4e7abc2789844ee22a051f688e45885c21e249b2fc348a64bbd32bc795a85ce7e3cb0ef1c4a6aca0aab93eb94ea71dad45351b2161bb16641f0d457117816a737022065ec26f09a2e7db91ab801548e33979d1684913b0f4a193804b11d15f530d3f8cce5240b8d4ee679fa3c5afcf08b02e3795d630a422f487207d59a8be77a95c0d073710813e8fd4ef14ccf13309fa5738e6eba95be59ec8fa49d2f1e823d0167de850594a14948fd714fcbf0a3c14eaaafd51f7989528d6631cb054389bbc441510e76f369b47c54f3879f4922df07a19c69261a96e0c3d9c3abf2c1d24665270e06ed0478723b5dc78342ecebc0c24cff77e84791efd27d7d4a\",\"dc2_server_salt\":\"959eb897fb7f3c8f\",\"dc4_auth_key\":\"197c62ecfa026ee2127d4a8a10704a8068756765c8999a8b3ccb110fe6d27ad6b622ed2c6e8a535add489e6659d6851b62d57d9a1fc2713b9f259f235bcc256fc6120aadda82ae35c66254fad3ef086f2079c80239f8ab6f89f85bb93912f16e1d78c90aebf8469b5585d15d07849cd1d04bddffa566084f83b3496fb7c3f9a52e6dc9c9034132f999554c7ca1b552f7c39fb8116d350cd7e88264b4a20f85f7fd1e887b9f083d0b0eddd1b8d4ecf5a549efec89b4efc379e24e677e5de49c5b99caad83c0ba14dc3b5ab37fb6358d882c3ce9f3defad8528d0eff6d04d4354dfcb017d8a48e5ae70d9131dacc49ea7a50962aeee186e4c2384df27ce444942f\",\"dc4_server_salt\":\"f837a01964c79be5\",\"userId\":2099914999,\"dcId\":2,\"date\":1744274684}"
+        },
+        {
+          "name": "dc2_auth_key",
+          "value": "\"52d5f1f4e7abc2789844ee22a051f688e45885c21e249b2fc348a64bbd32bc795a85ce7e3cb0ef1c4a6aca0aab93eb94ea71dad45351b2161bb16641f0d457117816a737022065ec26f09a2e7db91ab801548e33979d1684913b0f4a193804b11d15f530d3f8cce5240b8d4ee679fa3c5afcf08b02e3795d630a422f487207d59a8be77a95c0d073710813e8fd4ef14ccf13309fa5738e6eba95be59ec8fa49d2f1e823d0167de850594a14948fd714fcbf0a3c14eaaafd51f7989528d6631cb054389bbc441510e76f369b47c54f3879f4922df07a19c69261a96e0c3d9c3abf2c1d24665270e06ed0478723b5dc78342ecebc0c24cff77e84791efd27d7d4a\""
+        },
+        {
+          "name": "dc",
+          "value": "2"
+        },
+        {
+          "name": "user_auth",
+          "value": "{\"date\":1744274717,\"id\":2099914999,\"dcID\":2}"
+        },
+        {
+          "name": "k_build",
+          "value": "565"
+        },
+        {
+          "name": "dc2_server_salt",
+          "value": "\"959eb897fb7f3c8f\""
+        },
+        {
+          "name": "dc4_auth_key",
+          "value": "\"197c62ecfa026ee2127d4a8a10704a8068756765c8999a8b3ccb110fe6d27ad6b622ed2c6e8a535add489e6659d6851b62d57d9a1fc2713b9f259f235bcc256fc6120aadda82ae35c66254fad3ef086f2079c80239f8ab6f89f85bb93912f16e1d78c90aebf8469b5585d15d07849cd1d04bddffa566084f83b3496fb7c3f9a52e6dc9c9034132f999554c7ca1b552f7c39fb8116d350cd7e88264b4a20f85f7fd1e887b9f083d0b0eddd1b8d4ecf5a549efec89b4efc379e24e677e5de49c5b99caad83c0ba14dc3b5ab37fb6358d882c3ce9f3defad8528d0eff6d04d4354dfcb017d8a48e5ae70d9131dacc49ea7a50962aeee186e4c2384df27ce444942f\""
+        },
+        {
+          "name": "dc4_server_salt",
+          "value": "\"f837a01964c79be5\""
+        },
+        {
+          "name": "auth_key_fingerprint",
+          "value": "\"52d5f1f4\""
+        },
+        {
+          "name": "server_time_offset",
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}
