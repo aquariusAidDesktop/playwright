@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "db:up": "docker-compose up -d",
+    "db:down": "docker-compose down",
+    "db:ps": "docker ps",
+    "db:shell": "docker exec -it spam_postgres psql -U postgres -d spam",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio"
   },
   "keywords": [],
   "author": "",
